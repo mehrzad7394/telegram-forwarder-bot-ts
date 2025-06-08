@@ -1,5 +1,6 @@
 import jwt, { JwtPayload, VerifyErrors } from "jsonwebtoken";
 import { RequestResponseNext } from "../types";
+import User from "../models/user.model";
 export const getVerified: RequestResponseNext = async (req, res, next) => {
   const jwtToken = req.cookies.jwt;
   if (!jwtToken) {
