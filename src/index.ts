@@ -69,7 +69,6 @@ app.use(cookieParser());
 app.use("/api/auth", authRoute);
 app.use("/api/verify", verifyRoute);
 app.use(verifyJWT);
-// app.use("/api/home", homeRoute);
 app.use("/api/filters", filterRoute);
 app.use("/api/end", endRoute);
 app.use("/api/reset", resetRoute);
