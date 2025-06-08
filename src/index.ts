@@ -34,7 +34,7 @@ import errorHandler from "./middleware/errorHandler";
 import verifyJWT from "./middleware/verifyJWT";
 import credentials from "./middleware/credentials";
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT ? parseInt(process.env.PORT, 10) : 5000;
 const app = express();
 dotenv.config();
 
@@ -213,7 +213,7 @@ bot.on(message("text"), async (ctx) => {
 });
 
 app.use(errorHandler);
-app.listen(PORT, () => {
+app.listen(PORT, "0.0.0.0", () => {
   connect();
   console.log(`Server running on port ${PORT}`);
 });
