@@ -85,7 +85,7 @@ const connect = async () => {
     }
     await mongoose.connect(process.env.MONGO);
 
-    // bot.launch();
+    bot.launch();
     console.log("Connected to mongoDB!");
   } catch (error) {
     console.log(error);
