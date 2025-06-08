@@ -1,0 +1,41 @@
+20231230	22:07:42	7e18a7a0-d0ad-4d87-ac9f-decc9cce57fd	Error: TypeError: Cannot read properties of null (reading 'password')
+20231230	22:09:06	5946b4c0-e703-4fc0-8835-6cdc11dc4f7b	Error: TypeError: Cannot read properties of null (reading 'password')
+20231230	22:09:42	488a792b-ba4b-400f-b492-5a5010f4401c	Error: TypeError: Cannot read properties of null (reading 'password')
+20231230	22:10:46	b3126bcd-b5d5-4c98-94e1-e5ba4eb26469	Error: TypeError: Cannot read properties of null (reading 'password')
+20231230	22:11:18	f9e5d156-0410-48c5-a43a-416c74f953b4	Error: TypeError: Cannot read properties of null (reading 'password')
+20231230	22:11:35	b7ff0f8e-02da-49f2-a692-8df57e1fe6de	Error: TypeError: Cannot read properties of null (reading 'password')
+20231230	22:11:56	a9891af3-637b-4606-94eb-9c1c1f5ae520	Error: TypeError: Cannot read properties of null (reading 'password')
+20231230	22:12:29	00cf1e38-5a50-4e66-a56b-ee94b4df1a37	Error: TypeError: Cannot read properties of null (reading 'password')
+20231230	22:12:45	48af943d-84fb-4690-83f3-320a01d4ee40	Error: TypeError: Cannot read properties of null (reading 'body')
+20231230	22:15:43	2306882e-1465-4e1e-b73a-79199e01e834	Error: TypeError: res.createError is not a function
+20231230	22:17:24	a44850de-3193-49c5-bbcb-7866785025b3	SyntaxError: Expected double-quoted property name in JSON at position 30
+20231230	22:17:59	6582b958-4008-4dd1-9363-ac9e07f4dcd9	Error: Error: data and hash arguments required
+20231230	22:18:01	e6f12238-7e3a-44ef-a76e-4a5995f73d1e	Error: Error: data and hash arguments required
+20231230	22:21:08	419f9ddf-0e38-4ed9-9a1a-7b7187fb048b	Error: Error: data and hash arguments required
+20231231	15:24:53	c9c08143-609e-4e1c-8178-9709ddf9b040	Error: CastError: Cast to ObjectId failed for value "{ id: '658c1580a8c8cacee1a70e57', name: 'mehr' }" (type Object) at path "_id" for model "User"
+20240124	16:07:17	23e0253b-6fb1-4451-bcc4-acf41104fb31	Error: ValidationError: userID: Path `userID` is required.
+20240124	16:23:16	59594b9d-8cd2-4dd4-998a-55c8a9fb5115	Error: ValidationError: userID: Path `userID` is required.
+20240124	16:24:38	b9809ae2-e5bb-47fa-9337-70f1090da9a4	Error: ValidationError: userID: Path `userID` is required.
+20240129	21:06:05	46364768-4af7-4923-b55a-61efb282a425	Error: Not allowed by CORS
+20240129	21:06:50	8f071c47-7a16-4905-8357-2b44e95620fa	Error: Not allowed by CORS
+20240129	21:08:14	49479533-0f5e-4035-9a97-c51ff9d0f0c8	Error: Not allowed by CORS
+20240129	21:08:47	764e78c5-9aa2-44cd-992c-5d7402fabbb8	Error: Not allowed by CORS
+20240129	21:09:19	10b0c851-c8a1-445f-865f-c229feef872d	Error: Not allowed by CORS
+20240129	21:14:04	6ba4ca34-6c11-4dd1-9025-1297f965cdbf	Error: Not allowed by CORS
+20240129	21:17:03	f49862a9-c9b8-46fe-9be6-d3af5e9b5038	Error: Not allowed by CORS
+20240129	21:17:25	f3c6beaf-6a34-4eb8-aa7d-ccd281a522c4	Error: Not allowed by CORS
+20240130	08:59:39	73889cae-2fb4-45da-a893-b2acdc33e460	Error: Not allowed by CORS
+20240130	09:00:28	6e5fcb3a-6699-42a6-ad2b-a61ccc53fd16	Error: Not allowed by CORS
+20240130	10:52:07	bb6ae112-1e50-4ddb-9287-13ff704f83b2	Error: ValidationError: value: Path `value` is required.
+20250607	15:43:43	30812442-80a9-4814-a4c8-373c152da798	TypeError: Cannot read properties of undefined (reading 'method')
+20250607	15:45:25	f515c087-aa95-4aba-bcb4-d10055685acc	TypeError: Cannot read properties of undefined (reading 'url')
+20250607	15:45:58	5fe57195-7a96-4347-a5d1-3ff4ffcab3af	TypeError: Cannot read properties of undefined (reading 'headers')
+20250607	15:46:25	d4783bdf-b86f-4032-8722-0a6206537dde	TypeError: Cannot read properties of undefined (reading 'headers')
+20250607	15:47:52	53e313ba-a729-463f-bac4-8f0349ccde3a	TypeError: Cannot read properties of undefined (reading 'headers')
+20250607	16:00:06	a0545907-0101-4ad1-8f80-45a1e335b99a	TypeError: Cannot read properties of undefined (reading 'headers')
+20250607	16:00:54	0aef4c90-4433-4c62-8b21-a5f976c8cc1f	TypeError: Cannot read properties of undefined (reading 'headers')
+20250607	16:01:14	e73dea68-3a9a-46c8-bb10-f3ffd22323f9	TypeError: Cannot read properties of undefined (reading 'headers')
+20250607	16:17:59	0e307fff-d195-431b-acf8-ea4025ca18b4	ReferenceError: allowedOrigins is not defined
+20250607	16:41:13	e3620233-08cd-4996-9c05-13ec7df911ce	SyntaxError: Expected double-quoted property name in JSON at position 131
+20250607	16:44:20	b53ee1fa-2fee-4933-b900-478e631606a9	Error: data must be a string or Buffer and salt must either be a salt string or a number of rounds
+20250607	16:45:04	c9dd734c-aeb4-45c5-bad7-8dab2b621edf	SyntaxError: Expected double-quoted property name in JSON at position 64
